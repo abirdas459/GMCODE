@@ -1,0 +1,31 @@
+from ast import Break
+from pickle import NONE
+
+
+print("hello! welcome to G-codes & M-codes")
+GM = input("CHOOSE ANY ONE G-CODE  OR M-CODE:- ")
+if GM == "G-CODE":
+    print("here's your G-codes")
+    print("g00 = rapid positioning g01 = linear interpolation g02 = circular/helical interpolation (clockwise)")
+    print("g03 = circular/helical interpolation (counterclockwise)")
+    print("g07 = Lathe diameter mode")
+    print("g08 = Lathe radius mode")
+    print("g04 = dwell")
+    print("g10 = coordinate system origin setting")
+    print("g17 = xy plane selection")
+
+elif GM == "M-CODE":
+    print("here's your M-codes")
+    print("M00 =Program Stop")
+    print("M01 = Program Optional Stop")
+    print("M02 = End the Program")
+    print("M03 = Spindle On Clockwise, Laser, Flame, Power ON")
+    print("M04 = Spindle On Counter Clockwise")
+    print("M05 = Spindle Stop, Laser, Flame, Power OFF")
+    print("M06 = Tool Change")
+    print("M08 = Coolant On")
+    print("M09 = Coolant Off")
+    print("M10 = Reserved for tool height offset")
+    print("M13 = Spindle On, Coolant On")
+    
+print("bye have a nice day!")
